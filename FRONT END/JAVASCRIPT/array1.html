@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	var arr = new Array('Muhsin Mohammed','Kiran GK','Namitha');
+	document.write("Name : "+arr);
+	function name1(){
+		var v = document.getElementById("name").value;
+		if(v<=arr.length && v>=0){
+			alert(arr[v]);}
+		else
+			alert("Invalid input")
+				
+	}
+</script>
+</head>
+<body>
+	<table>
+	<tr> 
+		<td> Enter Here </td>
+		<td><input type="text" id ="name" name="name">
+		</td>
+	</tr>
+	</table>
+	<input type="button" value="submit" onclick="name1()">
+	
+</body>
+</html>

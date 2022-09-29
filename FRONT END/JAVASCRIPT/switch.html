@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function colour() {
+		var color = document.getElementById("gender").value;
+	switch (color){
+	case 'Male':{
+		document.write("You are a male");
+		break;
+	}
+
+	case 'female':{
+		document.write("You are a female");
+		break;
+	}
+
+	default:
+		document.write("Either you not like to disclose or entered a invalid input ")
+	}
+	}
+	
+</script>
+</head>
+<body>
+	<table>
+	<tr> 
+		<td> Enter Here </td>
+		<td><input type="text" id ="gender" name="gender">
+		</td>
+	</tr>
+	</table>
+	<input type="button" value="submit" onclick="colour()">
+</body>
+</html>
