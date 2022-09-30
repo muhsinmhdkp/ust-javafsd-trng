@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.con-box{
+	
+	width: 470px;
+	height :350px;
+	padding: 35px;
+	background-color: #ccffff;
+	margin-left:30%;
+	border-radius: 8px;
+	margin-top: 3%;
+	
+	
+	/*position: static;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	display:inline-flex;
+	*/
+}
+
+.box {
+	position: static;
+	width: 370px;
+	display: flex;
+	margin-left:3%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 35px;
+	background-color: #c6ffc6;
+	border-radius: 15px;
+	margin-top: 9%;
+}
+
+h1{
+	margin-left: 35%;
+	margin-top: .5%;
+	
+}
+
+.button{
+	 width: 150px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #1F4788;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 40px;
+    text-align: center;
+   	margin-top: 20px;
+	}
+/*Apply css properties to card class*/
+

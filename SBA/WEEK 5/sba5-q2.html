@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function viewdetails() {
+		var fname1=document.getElementById("fname").value;
+		var lname1=document.getElementById("lname").value;
+		var city1=document.getElementById("city").value;
+		document.write("Name : "+fname1 +" " +lname1 +"<br>");
+		document.write("City : "+city1);
+	}
+</script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="C:\Users\ustjavafsdb203\eclipse-workspace\frontend\src\main\webapp\WEB-INF\css\sba5-q2.css">
+
+</head>
+<body>
+<div class = "con-box">
+	<div class = "box">
+		<table>
+			<tr>
+			<th>FIRST NAME</th>
+			<td><input type="text" name="fname" id="fname">	</td>
+			</tr>
+			
+			<tr></tr>
+			<tr></tr>
+			
+			<tr>
+			<th>LAST NAME</th>
+			<td><input type="text" name="lname" id= "lname"></td>
+			</tr>
+			
+			<tr></tr>
+			<tr></tr>
+			
+			<tr>
+			<th>CITY</th>
+			<td><input type="text" name="city" id= "city"></td>
+			</tr>
+			
+		</table>
+		<button class="button" type="button" onclick="viewdetails()">SUBMIT</button>
+	</div>
+</div>
+</body>
+</html>
